@@ -6,7 +6,7 @@ from telebot import types, TeleBot
 from telebot.types import InputFile
 from PIL import Image, ImageDraw, ImageFont
 
-bot: TeleBot = telebot.TeleBot('5473853379:AAGy2mEkaKNlLmOS2r4kIZxbVVxhC-LxnQQ')
+bot: TeleBot = telebot.TeleBot('ключ бота')
 
 workbook = openpyxl.open('main.xlsx')
 
